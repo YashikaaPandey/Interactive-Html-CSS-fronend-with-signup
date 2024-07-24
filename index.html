@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR HER BY HER</title>
+    <!--====CSS====-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar">
+        <h1 class="logo" >FOR HER BY HER</h1>
+        <ul class="nav-links">
+            <li class="active" ><a href="#">Home</a></li>
+            <li ><a href="privacypolicy.html">Privacy Policy</a></li>
+            <li ><a href="termsandconditions.html">Terms & Conditions</a></li>
+            <li ><a href="contactus.html">Contact us</a></li>
+        </ul>
+        <img src="./menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Women World</h2>
+            <div class="line"></div>
+            <h1>A FREE PLACE FOR WOMEN</h1>
+            <a href="signup.html" class="ctn">Join Us</a>
+        </div>
+    </header>
+    
+    <!--==options==-->
+    <section class="options">
+        <div class="title">
+            <h1>Explore options</h1>
+            <div class="line"></div>
+        </div> 
+        <div class="row">
+            <div class="col">
+                <img src="./askquestions1 (1).png" alt="">
+                <p>Post your questions anonymously and get the best answers from different people.Males can only comment.</p>
+                <h3><a href="joinus.html" class="ctn">Ask questions</a></h3>
+</div>
+            <div class="col">
+                <img src="./communities (1).png" alt="">
+                <p>Here you can create your own community to help or can join the existing one.In this males cannot take part.</p>
+                <h3><a href="joinus.html" class="ctn">Communities</a></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./jobs&opportunity (2).png" alt="">
+                <p>In this section you can apply for jobs from verified users and can also provide the jobs .</p>
+                <h3><a href="joinus.html" class="ctn">Jobs & Opportunities</a></h3>
+            </div>
+            <div class="col">
+                <img src="./experttalk2.jpg" width="430px" alt="">
+                <p>This is our premium section in this you can have paid chat and meeting with the verified doctors, therapist and psychiatrist.</p>
+                <h3><a href="joinus.html" class="ctn">Expert talk(*)</a></h3>
+            </div>
+        </div>
+        
+    </section>
+    <section class="footer">
+        <p>IMSEC,Ghaziabaad,UP,India| Phone:123-789-567| Email: forherbyherty@gmail.com</p>
+        <p>copyright @ 2022 FOR HER BY HER </p>
+    </section>
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+    </script>
+</body>
+</html>
